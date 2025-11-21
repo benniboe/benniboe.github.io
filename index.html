@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Test Webseite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- This is the navigation menu - what your extension will adapt -->
+    <nav id="main-menu">
+        <ul>
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="about.html" data-page="about">Über dieses Projekt</a></li>
+            <li><a href="blog.html" data-page="blog">Blog</a></li>
+            <li><a href="projects.html" data-page="projects">Projekte</a></li>
+            <li><a href="contact.html" data-page="contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main>
+        <h1>Herzlich Willkommen auf der Startseite</h1>
+        <p>Diese Webseite dient als Demo, um die Intergration einer adaptiven UI-Extension zu testen.</p>
+        
+        <section class="content-box">
+            <h2>Zweck und Vorgehen</h2>
+            <p>Durch Navigieren auf dieser Webseite zeichnet die Extension auf, welche Menüpunkte häufiger aufgerufen werden als andere.</p>
+            <p>Klicke einige Male auf die einzelnen Menüs und beobachte, wie sich das Menü an dein Verhalten anpasst!</p>
+        </section>
+
+        <section class="content-box">
+            <h2>Was sollte passieren?</h2>
+            <ul>
+                <li>Beliebte Menüpunkte werden grösser dargestellt.</li>
+                <li>Seltener geklickte Menüpunkte werden weniger prominent angezeigt.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>AdaptUI Demo © 2025</p>
+    </footer>
+</body>
+</html>
